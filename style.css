@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    min-height: 200px;
+    min-width: 500px;
+    background:linear-gradient(rgb(94, 205, 233),rgb(4, 16, 18));
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+}
+label{
+    text-align: left;
+    padding-left: 100px;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+.row{
+    display: flex;
+}
+.row label{
+    flex-basis: 70%;
+    color: aliceblue;
+    margin: 5px;
+}
+#submit-Btn{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid green;
+    font-weight: bold;
+    background-color: rgb(177, 242, 79);
+    margin: 20px;
+
+}
+.inputDiv{
+    position: relative;
+    /* background: #b77f7f; */
+}
+#inputBox{
+    text-align: start;
+    padding-left: 10px;
+    font-size: 14px;
+    color: white;
+}
+#inputBox,#pswdlength{
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    accent-color: rgb(162, 255, 0);
+}
+
+
+.rangeLabel{
+    position: relative;
+    left: -70px;
+    color: azure;
+}
+.lengthValue{
+    color: aliceblue;
+    position: relative;
+    right: -50px;
+}
+#submit-Btn:hover{
+    color: rgb(177, 242, 79);
+    background-color: rgb(7, 7, 6);
+    font-size: medium;
+}
+img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 400px;
+    top: 5px;
+    cursor: pointer;
+}
